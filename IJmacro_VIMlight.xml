@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="ImageJMacro" ext="ijm">
+        <Settings>
+            <Global caseIgnored="no" escapeChar="\" />
+            <TreatAsSymbol comment="yes" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="yes" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;00&quot;00</Keywords>
+            <Keywords name="Folder+">{</Keywords>
+            <Keywords name="Folder-">}</Keywords>
+            <Keywords name="Operators">- ! &quot; % &amp; ( ) , ; ? [ \ ] | + &lt; = &gt;</Keywords>
+            <Keywords name="Comment">1/* 2*/ 0//</Keywords>
+            <Keywords name="Words1">else for NaN var return true while PI if false do</Keywords>
+            <Keywords name="Words2">function macro</Keywords>
+            <Keywords name="Words3">Fit.f pow getResultsCount Stack.getActiveChannels changeValues Array.trim wait getResult setLocation setColor matches doWand File.saveString Overlay.hide substring setVoxelSize setOption getTitle Dialog.getNumber Fit.p setThreshold List.setList List.clear setJustification getArgument eval log isActive nImages floor toLowerCase Dialog.addString isNaN split getDimensions getString Stack.setActiveChannels String.paste File.name Fit.nEquations List.size debug run bitDepth invert selectionName getVersion makeLine getLine getSelectionBounds List.getValue Stack.setChannel File.directory write setLut getPixelSize Stack.setSlice sqrt Stack.getPosition Stack.setFrameRate String.append replace setKeyDown imageCalculator getTime charCodeAt sin Fit.rSquared Overlay.moveTo setMinAndMax Overlay.show cos round showProgress Overlay.removeSelection putPixel close getResultLabel toUpperCase Fit.getEquation newMenu calibrate makePoint selectImage Stack.isHyperstack setRGBWeights getDateAndTime Dialog.addCheckboxGroup Dialog.getString Dialog.addHelp showText autoUpdate makeSelection screenWidth minOf getZoom exec getFontList parseFloat getValue parseInt dump asin newArray String.resetBuffer File.openDialog Dialog.show atan2 getHeight d2s waitForUser Overlay.lineTo floodFill Fit.doFit getLocationAndSize startsWith selectionContains getSliceNumber lineTo newImage Dialog.addCheckbox setBackgroundColor drawString toHex File.openUrlAsString Fit.showDialog getDirectory Array.copy screenHeight getStringWidth File.length getBoundingRect String.buffer setPasteMode getNumber showMessageWithCancel makeOval showMessage IJ.currentMemory Dialog.getCheckbox fillRect indexOf File.separator File.isDirectory open getFileList Stack.setZUnit abs Ext getThreshold nSlices resetMinAndMax File.append reset updateResults doCommand setBatchMode File.exists setFont random Overlay.drawString Stack.setPosition lastIndexOf makeText restoreSettings drawOval Stack.getDisplayMode exit restorePreviousTool makePolygon Dialog.addNumber roiManager setTool getRawStatistics getList setForegroundColor File.rename makeRectangle IJ.deleteRows setAutoThreshold tan List.getList File.open setMetadata Dialog.addChoice getVoxelSize Plot Stack.getFrameRate toolID IJ.freeMemory Array.getStatistics IJ.redirectErrorMessages setSelectionName fromCharCode File.openAsString Fit.plot Array.invert snapshot getPixel Stack.setDimensions Overlay.size isOpen Array.sort selectionType getLut Overlay.remove Overlay.drawLine getStatistics getMetadata setSelectionLocation File.nameWithoutExtension atan save File.lastModified getBoolean File.delete rename String.copy beep Stack.getDimensions Fit.logResults getSelectionCoordinates getMinAndMax Fit.nParams getWidth Stack.getStatistics maxOf toBinary getImageInfo drawRect File.openAsRawString requires setLineWidth exp File.makeDirectory File.dateLastModified getCursorLoc Stack.setTUnit selectWindow Array.fill getProfile setPixel toString String.copyResults showStatus Stack.swap saveSettings Dialog.addMessage setSlice call File.getName Overlay.drawEllipse nResults IJ.maxMemory getInfo File.getParent lengthOf saveAs Dialog.getChoice setResult updateDisplay isKeyDown drawLine acos Overlay.drawRect List.get moveTo is Overlay.add setZCoordinate fillOval IJ.getToolName fill setupUndo Stack.setDisplayMode print getHistogram runMacro getImageID List.set Stack.setFrame List.setMeasurements File.close resetThreshold endsWith List.setCommands Plot.create Plot.setLimits Plot.setColor Plot.add Plot.addText Plot.show Plot.setLineWidth Plot.setLineWidth Plot.setJustification Dialog.create File.separator File.openAsStringf</Keywords>
+            <Keywords name="Words4">Ext.</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="DejaVu Sans Mono" fontStyle="0" fontSize="11" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="0080FF" bgColor="FFFFFF" fontName="Batang" fontStyle="1" fontSize="12" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="0000FF" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="0AB694" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="808040" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="0080C0" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="008080" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="12" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="8080C0" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
