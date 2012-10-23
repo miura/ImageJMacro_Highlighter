@@ -1,8 +1,8 @@
-# Syntax Highlighter for Vim and Notepad++
+# ImageJ Macro Syntax Highlighter
 
 Kota Miura (miura@embl.de)
 
-##ImageJ Macro syntax High Lighter for VIM
+##VIM
 
 - filetype.vim
 
@@ -37,16 +37,20 @@ Also place another copy to
 	/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax
 
 
-##ImageJ macro syntax highlighter for Notepad++
+##Notepad++
 
 Notepad++ is a free software for Windows (http://notepad-plus-plus.org/).
-For istallation of syntax highlighters, please refer to 
-
-	http://sourceforge.net/apps/mediawiki/notepad-plus/index.php?title=Syntax_Highlighting_Sharing
+For istallation of syntax highlighters, please refer to [this page](http://sourceforge.net/apps/mediawiki/notepad-plus/index.php?title=Syntax_Highlighting_Sharing)
 
 - IJmacro_VIMlight.xml
 	for bright background (white)
 
 - IJmacro_VIMMonoIndustrial.xml
 	for dark background (style "Mono Industrial", selectable from Settings -> Style Configurator)
+
+##CotEditor
+
+The definition file for CorEditor Could be found at:
+[https://gist.github.com/1334472](https://gist.github.com/1334472)
+
 
