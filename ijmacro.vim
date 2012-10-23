@@ -2,7 +2,7 @@
 " Language:	ImageJ Macro Language
 " Maintainer:	Kota Miura <miura@embl.de>
 " Filenames:    *.ijm
-" Last Change:	26 November 2010
+" Last Change:	23 October 2012
 " Web Page:     http://cmci.embl.de
 
 if !exists("main_syntax")
